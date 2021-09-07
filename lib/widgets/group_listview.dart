@@ -7,9 +7,6 @@ import 'package:theprophetprayer/screens/duaContent/dua_section.dart';
 class GroupListView extends StatelessWidget {
   GroupListView({Key? key, required this.prayers}) : super(key: key);
   final List<Prayer> prayers;
-  List<Color>myColor = [Colors.green,Colors.red, Colors.teal, Colors.orange, Colors.lightGreen, Colors.purple
-    ,Colors.indigo,Colors.brown, Colors.pink, Colors.deepOrange, Colors.purple.shade400, Colors.teal.shade400, ];
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -35,7 +32,7 @@ class GroupListView extends StatelessWidget {
                         ),
                         decoration: new BoxDecoration (
                             shape: BoxShape.circle,
-                          color: myColor[prayers[index].cid-1],
+                          color: Colors.green,
                         ),
                       ),
 

@@ -59,7 +59,7 @@ class BuildAppBar extends StatelessWidget implements PreferredSizeWidget {
                         content: about(),
                     actions: [
                       TextButton(
-                          child: const Text("Close", style: TextStyle(color: Colors.teal),),
+                          child: const Text("Close", style: TextStyle(color: Colors.green),),
                         onPressed: (){
                             Navigator.of(context).pop();
                         },
@@ -90,8 +90,8 @@ class BuildAppBar extends StatelessWidget implements PreferredSizeWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text("Hisnul Muslim", textAlign: TextAlign.center, style: TextStyle(
-            fontSize: 20, fontWeight: FontWeight.bold, color: Colors.teal,
+          Text("The Prophet's Prayer", textAlign: TextAlign.center, style: TextStyle(
+            fontSize: 20, fontWeight: FontWeight.bold, color: Colors.deepPurple,
           ),),
           
           Padding(padding: EdgeInsets.all(10)),

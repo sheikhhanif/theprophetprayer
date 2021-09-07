@@ -76,8 +76,9 @@ flutter:
       fonts:
         - asset: assets/fonts/ScheherazadeNew-Regular.ttf
 
-
-
+    - family: GentiumPlus
+      fonts:
+        - asset: assets/fonts/GentiumPlus-Regular.ttf
 
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700

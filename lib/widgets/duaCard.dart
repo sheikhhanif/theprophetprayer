@@ -52,9 +52,6 @@ class _ContentCardViewState extends State<ContentCardView> {
         ));
 
     var prayerList = Provider.of<FavProvider>(context).prayers;
-    List<Color>myColor = [Colors.green,Colors.red, Colors.teal, Colors.orange, Colors.lightGreen, Colors.purple
-      ,Colors.indigo,Colors.brown, Colors.pink, Colors.deepOrange, Colors.purple.shade400, Colors.teal.shade400, ];
-
 
     return Padding(
       padding: const EdgeInsets.all(4.0),
@@ -76,7 +73,7 @@ class _ContentCardViewState extends State<ContentCardView> {
               ),
               decoration: new BoxDecoration (
                 shape: BoxShape.circle,
-                color: myColor[prayer.cid-1],
+                color: Colors.green,
               ),
             ),
 
@@ -141,9 +138,10 @@ class _ContentCardViewState extends State<ContentCardView> {
                       fontStyle: FontStyle.italic
                     ),
                     "p": Style(
-                      fontSize: FontSize(15),
+                      fontSize: FontSize(17),
                         color: Colors.black,
-                      textAlign: TextAlign.justify
+                        fontFamily: "GentiumPlus",
+                        textAlign: TextAlign.justify
                     ),
 
                     "blockquote": Style(
@@ -166,7 +164,6 @@ class _ContentCardViewState extends State<ContentCardView> {
 
 
 
-
               ListTile(
                 title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -175,7 +172,7 @@ class _ContentCardViewState extends State<ContentCardView> {
                     IconButton(
                       icon: Icon(
                         Icons.ios_share,
-                        color: Colors.deepPurple.shade400,
+                        color: Colors.green,
                       ),
                       alignment: Alignment.bottomLeft,
                       onPressed:(){
@@ -188,7 +185,7 @@ class _ContentCardViewState extends State<ContentCardView> {
                     IconButton(
                       icon: Icon(
                         Icons.note_add_outlined,
-                        color: Colors.deepPurple.shade400,
+                        color: Colors.green,
                       ),
                       alignment: Alignment.bottomLeft,
                       onPressed:(){
@@ -201,7 +198,7 @@ class _ContentCardViewState extends State<ContentCardView> {
                               content: footNote(prayer),
                               actions: [
                                 TextButton(
-                                  child: const Text("Close", style: TextStyle(color: Colors.deepPurple),),
+                                  child: const Text("Close", style: TextStyle(color: Colors.green),),
                                   onPressed: (){
                                     Navigator.of(context).pop();
                                   },
@@ -216,7 +213,7 @@ class _ContentCardViewState extends State<ContentCardView> {
                     IconButton(
                       icon: Icon(
                         prayerList.contains(prayer) ? Icons.favorite : Icons.favorite_border,
-                        color: prayerList.contains(prayer) ? Colors.deepPurple.shade400 : Colors.deepPurple.shade400,
+                        color: prayerList.contains(prayer) ? Colors.green : Colors.green,
                       ),
                       onPressed:(){
                         if (prayerList.contains(prayer)) {
@@ -283,11 +280,11 @@ class _ContentCardViewState extends State<ContentCardView> {
 
                   "section": Style(
                       padding: EdgeInsets.only(top: 5),
-                      fontStyle: FontStyle.italic
                   ),
                   "p": Style(
                       fontSize: FontSize(14),
                       color: Colors.black,
+                    fontFamily: "GentiumPlus"
                   ),
 
                   "blockquote": Style(

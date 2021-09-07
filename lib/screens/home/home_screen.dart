@@ -88,17 +88,22 @@ class HomeBody extends StatelessWidget {
 
               itemBuilder: (context, position) {
                 return Card(
+                  color: Colors.green.shade500,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: const BorderRadius.all(Radius.circular(11)),
+                  ),
 
-                  elevation: 0.8,
+                  elevation: 0.0,
                   child: Container(
 
-                    decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [Colors.green, Colors.teal.shade400,Colors.deepPurple.shade300],
-                        ),
+                  /*  decoration: BoxDecoration(
+                       //gradient: LinearGradient(
+                         // colors: [Colors.green.shade600,Colors.green.shade600],
+                        //),
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.circular(10),
-                    ),
+                      color: Colors.green
+                    ),  */
                     child: ListTile(
                       title: Center(
                         child: Row(

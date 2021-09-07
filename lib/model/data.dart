@@ -1217,16 +1217,16 @@ reference:"""
               <p>He used to combine the pairs<a href="#fn41" class="footnoteRef" id="fnref41"><sup>41</sup></a> of the mufaṣṣal<a href="#fn42" class="footnoteRef" id="fnref42"><sup>42</sup></a> sūrahs, so he used to recite one of the following pairs of sūrahs in one rakʿah<a href="#fn43" class="footnoteRef" id="fnref43"><sup>43</sup></a>:</p>
       <!-- TODO double check number of ayahs -->
       <ul>
-      <li>al–Raḥmān (55:{78})<a href="#fn44" class="footnoteRef" id="fnref44"><sup>44</sup></a> and al–Najm (53:{62});</li>
-      <li>al–Qamar (54:{55}) and al–Ḥāqqah (69:{52});</li>
-      <li>al–Ṭūr (52:{49}) and al–Dhāriyāt (51:{60});</li>
-      <li>al–Wāqiʿah (56:{96}) and al–Qalam (68:{52});</li>
-      <li>al–Maʿārij (70:{44}) and al–Nāziʿāt (79:{46});</li>
-      <li>al–Muṭaffifīn (83:{36}) and ʿAbasa (80:{42});</li>
-      <li>al–Muddaththir (74:{56}) and al–Muzzammil (73:{20});</li>
-      <li>al–Dahr (al–Insān) (76:{31}) and al–Qiyāmah (75:{40});</li>
-      <li>al–Nabāʾ (78:{40}) and al–Mursalāt (77:{50});</li>
-      <li>al–Dukhān (44:{59}) and al–Takwīr (81:{29}).</li>
+      <li><p>al–Raḥmān (55:{78})<a href="#fn44" class="footnoteRef" id="fnref44"><sup>44</sup></a> and al–Najm (53:{62});</p></li>
+      <li><p>al–Qamar (54:{55}) and al–Ḥāqqah (69:{52});</p></li>
+      <li><p>al–Ṭūr (52:{49}) and al–Dhāriyāt (51:{60});</p></li>
+      <li><p>al–Wāqiʿah (56:{96}) and al–Qalam (68:{52});</p></li>
+      <li><p>al–Maʿārij (70:{44}) and al–Nāziʿāt (79:{46});</p></li>
+      <li><p>al–Muṭaffifīn (83:{36}) and ʿAbasa (80:{42});</p></li>
+      <li><p>al–Muddaththir (74:{56}) and al–Muzzammil (73:{20});</p></li>
+      <li><p>al–Dahr (al–Insān) (76:{31}) and al–Qiyāmah (75:{40});</p></li>
+      <li><p>al–Nabāʾ (78:{40}) and al–Mursalāt (77:{50});</li>
+      <li><p>al–Dukhān (44:{59}) and al–Takwīr (81:{29}).</li>
       </ul>
       <p>Sometimes he would combine sūrahs from the seven ṭiwāl (long sūrahs), such as al–Baqarah, al–Nisāʾ and āl ʿImrān in one rakʿah during night prayer (below). He used to say: “The most excellent prayer is one with long standing.”<a href="#fn45" class="footnoteRef" id="fnref45"><sup>45</sup></a></p>
       <p>When he recited, “Does He not have the power to give life to the dead? (Sūrah al–Qiyāmah 75:40),” he would say,</p>
@@ -1235,8 +1235,8 @@ reference:"""
       </div>
       <p>“Glory be to You, of course!”</p>
       <p>and when he recited, “Glorify the name of your Lord Most High (Sūrah al–Aʿlā, 87:1),” he would say,</p>
-      <p>سُبْحَانَ رَبِّيَ الْأَعْلَى<br />
-      “Glorified be my Lord Most High.”<a href="#fn46" class="footnoteRef" id="fnref46"><sup>46</sup></a></p>
+      <div>سُبْحَانَ رَبِّيَ الْأَعْلَى<br /></div>
+      “Glorified be my Lord Most High.”<a href="#fn46" class="footnoteRef" id="fnref46"><sup>46</sup></a></div>
  """,
       reference:"""
         <section>
@@ -1413,6 +1413,8 @@ reference:"""
       <p>“They would hear the tones of his recitation of ‘Glorify the name of your Lord Most High’ (Sūrah al–Aʿlā, 87:19) and ‘Has the story reached you of the Overwhelming? (Sūrah al–Ghāshiyah, 88:26).’”<a href="#fn97" class="footnoteRef" id="fnref97"><sup>97</sup></a></p>
       <p>Sometimes “he would recite ‘By the Sky and the Night-Visitant (Sūrah al–Ṭāriq, 86:17),’ ‘By the Sky, (displaying) the Constellations (Sūrah al–Burūj, 85:22),’ and similar soorahs.”<a href="#fn98" class="footnoteRef" id="fnref98"><sup>98</sup></a></p>
       <p>Sometimes “he would recite ‘By the Night as it conceals (Sūrah al–Layl, 92:21)’ and similar sūrahs.”<a href="#fn99" class="footnoteRef" id="fnref99"><sup>99</sup></a></p>
+              """,
+      reference:"""
               <section>
         <h3>Footnotes</h3>
         <ol start='94'>
