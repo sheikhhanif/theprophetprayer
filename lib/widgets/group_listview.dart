@@ -13,6 +13,8 @@ class GroupListView extends StatelessWidget {
       child: ListView.builder(
         padding: const EdgeInsets.all(8),
         itemBuilder: (BuildContext context,  index) {
+          final PageController controller = PageController(initialPage: index);
+
           return Card(
             elevation: 0.5,
               child: Column(
@@ -75,7 +77,12 @@ class GroupListView extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => SectionScreen(id: prayers[index].id),
+                              builder: (context) => PageView.builder(
+                                controller: controller,
+                                itemBuilder: (BuildContext context, index) {
+                                  return SectionScreen(id: prayers[index].id);
+
+                              },),
                             )
                         );
                       },
