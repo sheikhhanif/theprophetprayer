@@ -81,8 +81,8 @@ class GroupListView extends StatelessWidget {
                                 controller: controller,
                                 itemBuilder: (BuildContext context, index) {
                                   return SectionScreen(id: prayers[index].id);
-
-                              },),
+                              }, itemCount: prayers.length,
+                              ),
                             )
                         );
                       },
