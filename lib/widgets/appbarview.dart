@@ -90,7 +90,7 @@ class BuildAppBar extends StatelessWidget implements PreferredSizeWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text("The Prophet's Prayer", textAlign: TextAlign.center, style: TextStyle(
+          Text("The Salah", textAlign: TextAlign.center, style: TextStyle(
             fontSize: 20, fontWeight: FontWeight.bold, color: Colors.deepPurple,
           ),),
           
