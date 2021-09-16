@@ -29,20 +29,20 @@ class HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     int count;
     if (MediaQuery.of(context).orientation == Orientation.landscape){
-      count = 4;
+      count = 3;
     } else{
       count = 2;
     }
     return Container(
-      padding: EdgeInsets.all(10),
+      padding: EdgeInsets.fromLTRB(10,5,10,5),
       child: GridView.builder(
         gridDelegate:
-        SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,
-            childAspectRatio: MediaQuery.of(context).size.aspectRatio/0.259,
+        SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: count,
+            mainAxisExtent: (MediaQuery.of(context).size.longestSide-(Scaffold.of(context).appBarMaxHeight!*2+10))/(categoryData.length/count),
         ),
         itemBuilder: (context, position) {
           return Card(
-            color: Colors.green.shade500,
+            color: Colors.green.shade900,
             shape: RoundedRectangleBorder(
               borderRadius: const BorderRadius.all(Radius.circular(11)),
             ),

@@ -22,11 +22,11 @@ TextTheme textTheme() {
 AppBarTheme appBarTheme() {
   return AppBarTheme(
     color: Colors.white,
-    elevation: 0,
+    elevation: 2,
     brightness: Brightness.light,
-    iconTheme: IconThemeData(color: Colors.deepPurple),
+    iconTheme: IconThemeData(color: Colors.green.shade900),
     textTheme: TextTheme(
-      headline6: TextStyle(color: Colors.deepPurple, fontSize: 18),
+      headline6: TextStyle(color: Colors.green.shade900, fontSize: 18),
     ),
   );
 }

@@ -56,7 +56,7 @@ class _ContentCardViewState extends State<ContentCardView> {
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Card(
-          elevation: 0.5,
+          elevation: 1,
           child: Column(
             children: [
               ListTile(

@@ -91,7 +91,7 @@ class BuildAppBar extends StatelessWidget implements PreferredSizeWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Text("The Ṣalāh", textAlign: TextAlign.center, style: TextStyle(
-            fontSize: 18, fontWeight: FontWeight.bold, color: Colors.deepPurple,
+            fontSize: 18, fontWeight: FontWeight.bold, color: Colors.green.shade900,
           ),),
           
           Padding(padding: EdgeInsets.all(10)),
