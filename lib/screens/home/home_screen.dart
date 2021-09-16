@@ -46,7 +46,7 @@ class HomeBody extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: const BorderRadius.all(Radius.circular(11)),
             ),
-            elevation: 0.0,
+            elevation: 1.0,
             child: ListTile(
               title: Center(
                 child: Row(
