@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: HomeBody(),
-      appBar: BuildAppBar(title: "The Salah",),
+      appBar: BuildAppBar(title: "The Ṣalāh",),
     );
   }
 }
@@ -38,7 +38,7 @@ class HomeBody extends StatelessWidget {
       child: GridView.builder(
         gridDelegate:
         SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,
-            childAspectRatio: MediaQuery.of(context).size.aspectRatio/0.279,
+            childAspectRatio: MediaQuery.of(context).size.aspectRatio/0.259,
         ),
         itemBuilder: (context, position) {
           return Card(
@@ -53,7 +53,7 @@ class HomeBody extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      child: SvgPicture.asset(
+                      child: SvgPicture.asset (
                         categoryData[position].image,
                         width: 40,
                         height: 40,

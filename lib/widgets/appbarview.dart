@@ -90,18 +90,18 @@ class BuildAppBar extends StatelessWidget implements PreferredSizeWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text("The Salah", textAlign: TextAlign.center, style: TextStyle(
-            fontSize: 20, fontWeight: FontWeight.bold, color: Colors.deepPurple,
+          Text("The Ṣalāh", textAlign: TextAlign.center, style: TextStyle(
+            fontSize: 18, fontWeight: FontWeight.bold, color: Colors.deepPurple,
           ),),
           
           Padding(padding: EdgeInsets.all(10)),
-          Text("Authentic || Simple || Elegant", textAlign: TextAlign.center, style: TextStyle(
-            fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black,
+          Text("The Prophet's Prayer\nBy Shaykh al-Albānī", textAlign: TextAlign.center, style: TextStyle(
+            fontSize: 13.5, fontWeight: FontWeight.bold, color: Colors.black,
           ),),
           Text("\n\nMay Allah (SWT) bless all of us who helped directly or indirectly to create this app and"
               " May Allah (SWT) forgive our shortcomings - Ameen.\n\n"
               , textAlign: TextAlign.justify, style: TextStyle(
-            fontSize: 15, color: Colors.black,
+            fontSize: 13.5, color: Colors.black,
           ),),
 
           InkWell(
