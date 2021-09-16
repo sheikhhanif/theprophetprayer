@@ -33,7 +33,7 @@ class HomeBody extends StatelessWidget {
     } else{
       count = 2;
     }
-    return Container(
+    return new Container(
       padding: EdgeInsets.fromLTRB(10,5,10,5),
       child: GridView.builder(
         gridDelegate:
@@ -41,8 +41,9 @@ class HomeBody extends StatelessWidget {
             mainAxisExtent: (MediaQuery.of(context).size.longestSide-(Scaffold.of(context).appBarMaxHeight!*2+10))/(categoryData.length/count),
         ),
         itemBuilder: (context, position) {
-          return Card(
-            color: Colors.green.shade900,
+          final PageController controller = PageController(initialPage: position);
+          return new Card(
+            color: Colors.green.shade800,
             shape: RoundedRectangleBorder(
               borderRadius: const BorderRadius.all(Radius.circular(11)),
             ),
@@ -53,10 +54,15 @@ class HomeBody extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
+                      padding: EdgeInsets.all(5),
                       child: SvgPicture.asset (
                         categoryData[position].image,
                         width: 40,
                         height: 40,
+                      ),
+                      decoration: new BoxDecoration (
+                        shape: BoxShape.circle,
+                        color: Colors.green.shade900,
                       ),
                       alignment: Alignment.centerLeft,
                     ),
@@ -74,13 +80,20 @@ class HomeBody extends StatelessWidget {
                     ),
                   ],
                 ),
+
               ),
 
               onTap: (){
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ContentScreen(cid: categoryData[position].id),
+                      builder: (context) => PageView.builder(
+                        controller: controller,
+                          itemBuilder: (BuildContext context, position){
+                          return ContentScreen(cid: categoryData[position].id);
+                          },
+                        itemCount: categoryData.length,
+                      )
                     )
                 );
               },

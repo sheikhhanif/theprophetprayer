@@ -15,7 +15,7 @@ class GroupListView extends StatelessWidget {
         itemBuilder: (BuildContext context,  index) {
           final PageController controller = PageController(initialPage: index);
 
-          return Card(
+          return new Card(
             elevation: 0.5,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
